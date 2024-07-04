@@ -15,11 +15,10 @@ export default function Home() {
 
       <main className="mt-12">
         <h1 className="text-6xl leading-normal font-medium">Hi, I&#39;m <span className="text-blue-600">Amin</span> <br /> <span className="text-5xl">Business Student</span></h1>
-        <div className="mt-12 flex space-x-4">
-          <a className="flex items-center space-x-1" href="https://www.linkedin.com/in/aminbadh/" target="_blank"><Image className="inline" src={"/icons8-linkedin.svg"} width={18} height={18} alt="LinkedIn Icon"/> <span>LinkedIn</span></a>
-          <a className="flex items-center space-x-1" href="https://github.com/aminbadh/" target="_blank"><Image className="inline" src={"/icons8-github.svg"} width={18} height={18} alt="GitHub Icon"/> <span>GitHub</span></a>
-          <a className="flex items-center space-x-1" href="https://www.facebook.com/aminbadh/" target="_blank"><Image className="inline" src={"/icons8-facebook.svg"} width={18} height={18} alt="Facebook Icon"/> <span>Facebook</span></a>
-          <span></span>
+        <div className="mt-12 flex flex-wrap leading-loose">
+          <a className="flex items-center space-x-1 mr-4" href="https://www.linkedin.com/in/aminbadh/" target="_blank"><Image className="inline" src={"/icons8-linkedin.svg"} width={18} height={18} alt="LinkedIn Icon"/> <span>LinkedIn</span></a>
+          <a className="flex items-center space-x-1 mr-4" href="https://github.com/aminbadh/" target="_blank"><Image className="inline" src={"/icons8-github.svg"} width={18} height={18} alt="GitHub Icon"/> <span>GitHub</span></a>
+          <a className="flex items-center space-x-1 mr-8" href="https://www.facebook.com/aminbadh/" target="_blank"><Image className="inline" src={"/icons8-facebook.svg"} width={18} height={18} alt="Facebook Icon"/> <span>Facebook</span></a>
           <a href="https://badh.notion.site/Find-Me-On-0fd1d9cd9adf47a48fe360b91be97c03?pvs=4" target="_blank">More</a>
         </div>
       </main>
