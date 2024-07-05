@@ -38,9 +38,9 @@ export default function Home() {
         <h2 className="text-3xl flex-none w-52 font-medium mb-4">Projects</h2>
         <div className="grow">
           <p>As a developer with a keen interest in technology and innovation, my projects aim to address real-world challenges and create meaningful impacts within my community. Utilizing a diverse set of technologies such as Flutter, Firebase, Unity, and Java, I craft solutions ranging from web and mobile applications to engaging games. My development process is organized and efficient, employing project management tools like Trello for task management and Notion for thorough planning and resource management. I follow agile methodologies to ensure continuous improvement throughout the project lifecycle.</p>
-          <div className="flex flex-col sm:flex-row justify-between">
-            <a className="mt-4 underline underline-offset-2 font-medium" href="https://www.linkedin.com/in/aminbadh/details/projects/" target="_blank">Explore Projects on LinkedIn</a>
-            <a className="mt-4 underline underline-offset-2 font-medium" href="https://badh.notion.site/cdfae11902ca4f72b9b4fe82c5f04a21?v=bee3010170e644e19c4c21755a0b9b5b&pvs=4" target="_blank">See All Projects</a>
+          <div className="flex flex-col sm:flex-row">
+            <a className="flex-1 mt-4 underline underline-offset-2 font-medium" href="https://www.linkedin.com/in/aminbadh/details/projects/" target="_blank">Explore Projects on LinkedIn</a>
+            <a className="flex-1 mt-4 underline underline-offset-2 font-medium" href="https://badh.notion.site/cdfae11902ca4f72b9b4fe82c5f04a21?v=bee3010170e644e19c4c21755a0b9b5b&pvs=4" target="_blank">See All Projects</a>
           </div>
         </div>
       </section>

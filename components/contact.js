@@ -33,12 +33,12 @@ export default function Contact() {
 
     return (
         <form id="form" className="grow flex flex-col" onSubmit={handleSubmit}>
-            <div className="sm:space-x-8 sm:flex">
-                <div className="flex-1 mb-4">
+            <div className="sm:flex">
+                <div className="basis-1/2 mb-4 sm:pr-8">
                     <label for="email" className="block mb-2 text-sm">Your email</label>
                     <input type="email" id="email" name="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="name@example.com" required />
                 </div>
-                <div className="flex-1 mb-4">
+                <div className="basis-1/2 mb-4">
                     <label for="subject" className="block mb-2 text-sm">Subject</label>
                     <input type="text" id="subject" name="subject" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="e.g., Project Inquiry, Collaboration" required />
                 </div>
