@@ -1,3 +1,4 @@
+import Contact from "@/components/contact";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
           height={40}
           alt="Technologist Icon"
         />
-        <a className="underline underline-offset-2 p-2" href="mailto:aminbadh@gmail.com" target="_blank">Contact</a>
+        <a className="underline underline-offset-2 p-2" href="#contact">Contact</a>
       </nav>
 
       <main className="mt-12 flex">
@@ -49,6 +50,11 @@ export default function Home() {
           <a className="mt-4 underline underline-offset-2 font-medium" href="https://badh.notion.site/cdfae11902ca4f72b9b4fe82c5f04a21?v=bee3010170e644e19c4c21755a0b9b5b&pvs=4" target="_blank">See All Projects</a>
           </div>
         </div>
+      </section>
+
+      <section id="contact" className="mt-32 lg:flex">
+        <h2 className="text-3xl flex-none w-52 font-medium mb-4">Contact</h2>
+        <Contact />
       </section>
 
       <footer className="mt-32 mb-4">
