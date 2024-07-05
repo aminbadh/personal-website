@@ -24,13 +24,6 @@ export default function Home() {
             <a className="font-medium bg-gradient-to-r from-red-400 to-pink-500 text-transparent bg-clip-text" href="https://badh.notion.site/Find-Me-On-0fd1d9cd9adf47a48fe360b91be97c03?pvs=4" target="_blank">More</a>
           </div>
         </div>
-
-        <div className="hidden grow pl-10 justify-end items-center blur-xl lg:flex lg:justify-center">
-          <div className="h-40 w-52 rounded-full medium bg-gradient-to-r from-red-400 to-pink-400">
-            <div className="relative -top-8 -left-10 h-32 w-32 rounded-full bg-blue-400 opacity-60" />
-            <div className="relative bottom-10 -right-24 h-32 w-32 rounded-full bg-green-400 opacity-60" />
-          </div>
-        </div>
       </main>
 
       <section className="mt-32 lg:flex">
@@ -46,8 +39,8 @@ export default function Home() {
         <div className="grow">
           <p>As a developer with a keen interest in technology and innovation, my projects aim to address real-world challenges and create meaningful impacts within my community. Utilizing a diverse set of technologies such as Flutter, Firebase, Unity, and Java, I craft solutions ranging from web and mobile applications to engaging games. My development process is organized and efficient, employing project management tools like Trello for task management and Notion for thorough planning and resource management. I follow agile methodologies to ensure continuous improvement throughout the project lifecycle.</p>
           <div className="flex flex-col sm:flex-row justify-between">
-          <a className="mt-4 underline underline-offset-2 font-medium" href="https://www.linkedin.com/in/aminbadh/details/projects/" target="_blank">Explore Projects on LinkedIn</a>
-          <a className="mt-4 underline underline-offset-2 font-medium" href="https://badh.notion.site/cdfae11902ca4f72b9b4fe82c5f04a21?v=bee3010170e644e19c4c21755a0b9b5b&pvs=4" target="_blank">See All Projects</a>
+            <a className="mt-4 underline underline-offset-2 font-medium" href="https://www.linkedin.com/in/aminbadh/details/projects/" target="_blank">Explore Projects on LinkedIn</a>
+            <a className="mt-4 underline underline-offset-2 font-medium" href="https://badh.notion.site/cdfae11902ca4f72b9b4fe82c5f04a21?v=bee3010170e644e19c4c21755a0b9b5b&pvs=4" target="_blank">See All Projects</a>
           </div>
         </div>
       </section>
