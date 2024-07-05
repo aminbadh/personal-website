@@ -58,7 +58,7 @@ export default function Home() {
       </section>
 
       <footer className="mt-32 mb-4">
-        <p className="text-center">Thank you for visiting! Here&#39;s a cookie 🍪</p>
+        <p className="text-center">Thank you for visiting! <br className="sm:hidden" /> Here&#39;s a cookie 🍪</p>
       </footer>
     </>
   );
