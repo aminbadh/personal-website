@@ -13,13 +13,22 @@ export default function Home() {
         <a className="underline underline-offset-2 p-2" href="mailto:aminbadh@gmail.com" target="_blank">Contact</a>
       </nav>
 
-      <main className="mt-12">
-        <h1 className="text-5xl font-medium sm:text-6xl sm:leading-normal">Hi, I&#39;m <span className="text-blue-600">Amin</span> <br /> <span className="text-3xl sm:text-5xl">Business Student</span></h1>
-        <div className="mt-12 flex flex-wrap leading-loose">
-          <a className="flex items-center space-x-1 mr-4 font-medium text-blue-800" href="https://www.linkedin.com/in/aminbadh/" target="_blank">LinkedIn</a>
-          <a className="flex items-center space-x-1 mr-4 font-medium text-slate-700" href="https://github.com/aminbadh/" target="_blank">GitHub</a>
-          <a className="flex items-center space-x-1 mr-8 font-medium text-blue-600" href="https://www.facebook.com/aminbadh/" target="_blank">Facebook</a>
-          <a className="font-medium bg-gradient-to-r from-red-400 to-pink-500 text-transparent bg-clip-text" href="https://badh.notion.site/Find-Me-On-0fd1d9cd9adf47a48fe360b91be97c03?pvs=4" target="_blank">More</a>
+      <main className="mt-12 flex">
+        <div>
+          <h1 className="text-5xl font-medium sm:text-6xl sm:leading-normal">Hi, I&#39;m <span className="text-blue-600">Amin</span> <br /> <span className="text-3xl sm:text-5xl">Business Student</span></h1>
+          <div className="mt-12 flex flex-wrap leading-loose">
+            <a className="flex items-center space-x-1 mr-4 font-medium text-blue-800" href="https://www.linkedin.com/in/aminbadh/" target="_blank">LinkedIn</a>
+            <a className="flex items-center space-x-1 mr-4 font-medium text-slate-700" href="https://github.com/aminbadh/" target="_blank">GitHub</a>
+            <a className="flex items-center space-x-1 mr-8 font-medium text-blue-600" href="https://www.facebook.com/aminbadh/" target="_blank">Facebook</a>
+            <a className="font-medium bg-gradient-to-r from-red-400 to-pink-500 text-transparent bg-clip-text" href="https://badh.notion.site/Find-Me-On-0fd1d9cd9adf47a48fe360b91be97c03?pvs=4" target="_blank">More</a>
+          </div>
+        </div>
+
+        <div className="hidden grow pl-10 justify-end items-center blur-xl lg:flex lg:justify-center">
+          <div className="h-40 w-52 rounded-full medium bg-gradient-to-r from-red-400 to-pink-400">
+            <div className="relative -top-8 -left-10 h-32 w-32 rounded-full bg-blue-400 opacity-60" />
+            <div className="relative bottom-10 -right-24 h-32 w-32 rounded-full bg-green-400 opacity-60" />
+          </div>
         </div>
       </main>
 
