@@ -7,7 +7,7 @@ export default function Contact() {
         event.preventDefault();
         const formData = new FormData(event.target);
 
-        formData.append("access_key", process.env.ACCESS_KEY);
+        formData.append("access_key", process.env.NEXT_PUBLIC_ACCESS_KEY);
 
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
