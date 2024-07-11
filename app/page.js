@@ -30,7 +30,7 @@ export default function Home() {
         <h2 className="text-3xl flex-none w-52 font-medium mb-4">About Me</h2>
         <div className="grow">
           <p>I&#39;m a student at Tunis Business School with a passion for technology and innovation. I specialize in software development, marketing, and project management. My interests span across game, web, and mobile app development; digital marketing; and UX design. I love solving complex problems and collaborating with others to create efficient and user-friendly solutions. I am driven by a desire to work on impactful projects that can make a real difference in the world.</p>
-          <a className="mt-4 inline-block underline underline-offset-2 font-medium" href="https://drive.google.com/file/d/14u1ov7-W-I2ySnUiFk-aiMBGEznokSuw/view?usp=drive_link" target="_blank">Download CV</a>
+          <a className="mt-4 inline-block underline underline-offset-2 font-medium" href="https://drive.google.com/file/d/15rjQ7BbJvb12WHzMQW1I9JFzw2UjnzKE/view?usp=sharing" target="_blank">Download CV</a>
         </div>
       </section>
 
