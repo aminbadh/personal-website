@@ -35,16 +35,16 @@ export default function Contact() {
         <form id="form" className="grow flex flex-col" onSubmit={handleSubmit}>
             <div className="sm:flex">
                 <div className="basis-1/2 mb-4 sm:pr-8">
-                    <label for="email" className="block mb-2 text-sm">Your email</label>
+                    <label htmlFor="email" className="block mb-2 text-sm">Your email</label>
                     <input type="email" id="email" name="email" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="name@example.com" required />
                 </div>
                 <div className="basis-1/2 mb-4">
-                    <label for="subject" className="block mb-2 text-sm">Subject</label>
+                    <label htmlFor="subject" className="block mb-2 text-sm">Subject</label>
                     <input type="text" id="subject" name="subject" className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5" placeholder="e.g., Project Inquiry, Collaboration" required />
                 </div>
             </div>
-            <div class="sm:col-span-2 mb-2">
-                <label for="message" class="block mb-2 text-sm">Your message</label>
+            <div className="sm:col-span-2 mb-2">
+                <label htmlFor="message" className="block mb-2 text-sm">Your message</label>
                 <textarea id="message" name="message" rows="6" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500" placeholder="Write your message here..."></textarea>
             </div>
             <div className="flex justify-between items-baseline flex-col sm:flex-row">
