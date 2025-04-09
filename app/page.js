@@ -34,7 +34,7 @@ export default function Home() {
 
       <main className="mt-12 flex">
         <div>
-          <h1 className="text-5xl font-medium sm:text-6xl sm:leading-normal">Hi, I&#39;m <span className="text-blue-600">Amin</span> <br /> <span className="text-3xl sm:text-5xl">Business Student</span></h1>
+          <h1 className="text-5xl font-medium sm:text-6xl sm:leading-normal">Hi, I&#39;m <span className="text-blue-600">Amin</span> <br /> <span className="text-3xl sm:text-5xl">BSBA Student</span></h1>
           <div className="mt-12 flex flex-wrap leading-loose">
             <a className="flex items-center space-x-1 mr-4 font-medium text-blue-800" href="https://www.linkedin.com/in/aminbadh/" target="_blank">LinkedIn</a>
             <a className="flex items-center space-x-1 mr-4 font-medium text-slate-700" href="https://github.com/aminbadh/" target="_blank">GitHub</a>
@@ -47,7 +47,7 @@ export default function Home() {
       <section className="mt-32 lg:flex">
         <h2 className="text-3xl flex-none w-52 font-medium mb-4">About Me</h2>
         <div className="grow">
-          <p>I&#39;m a student at Tunis Business School with a passion for technology and innovation. I specialize in software development, marketing, and project management. My interests span across game, web, and mobile app development; digital marketing; and UX design. I love solving complex problems and collaborating with others to create efficient and user-friendly solutions. I am driven by a desire to work on impactful projects that can make a real difference in the world.</p>
+          <p>I&#39;m a student at Tunis Business School with a passion for data-driven marketing and user-centric technology. I specialize in marketing, software development, and project management, where I leverage analytical insights and technical skills to create engaging digital experiences. I love solving complex problems and collaborating with others to create efficient and user-friendly solutions. I am driven by a desire to work on impactful projects that can make a real difference in the world.</p>
           <a className="mt-4 inline-block underline underline-offset-2 font-medium" href="https://drive.google.com/file/d/15rjQ7BbJvb12WHzMQW1I9JFzw2UjnzKE/view?usp=sharing" target="_blank">Download CV</a>
         </div>
       </section>
@@ -69,7 +69,7 @@ export default function Home() {
       </section>
 
       <footer className="mt-32 mb-4">
-        <p className="text-center">Thank you for visiting! <br className="sm:hidden" /> Here&#39;s a cookie 🍪</p>
+        <p className="text-center">Thank you for visiting!</p>
       </footer>
     </>
   );
