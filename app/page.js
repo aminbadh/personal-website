@@ -1,7 +1,16 @@
+"use client"
+
+import { useRef } from "react";
 import Contact from "@/components/contact";
 import Image from "next/image";
 
 export default function Home() {
+  const contactRef = useRef(null);
+
+  const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <>
       <nav className="flex justify-between">
@@ -11,7 +20,16 @@ export default function Home() {
           height={40}
           alt="Technologist Icon"
         />
-        <a className="underline underline-offset-2 p-2" href="#contact">Contact</a>
+        <a
+          className="underline underline-offset-2 p-2"
+          href="#contact"
+          onClick={(e) => {
+            e.preventDefault();
+            handleScrollToContact();
+          }}
+        >
+          Contact
+        </a>
       </nav>
 
       <main className="mt-12 flex">
@@ -45,7 +63,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="mt-32 lg:flex">
+      <section id="contact" ref={contactRef} className="mt-32 lg:flex">
         <h2 className="text-3xl flex-none w-52 font-medium mb-4">Contact</h2>
         <Contact />
       </section>
