@@ -48,7 +48,7 @@ export default function Home() {
         <h2 className="text-3xl flex-none w-52 font-medium mb-4">About Me</h2>
         <div className="grow">
           <p>I&#39;m a student at Tunis Business School with a passion for data-driven marketing and user-centric technology. I specialize in marketing, software development, and project management, where I leverage analytical insights and technical skills to create engaging digital experiences. I love solving complex problems and collaborating with others to create efficient and user-friendly solutions. I am driven by a desire to work on impactful projects that can make a real difference in the world.</p>
-          <a className="mt-4 inline-block underline underline-offset-2 font-medium" href="https://drive.google.com/file/d/15rjQ7BbJvb12WHzMQW1I9JFzw2UjnzKE/view?usp=sharing" target="_blank">Download CV</a>
+          <a className="mt-4 inline-block underline underline-offset-2 font-medium" href="https://drive.google.com/file/d/1az1bGJ1LwQKUO5gKFHUP78rPd7IUmZ6s/view?usp=sharing" target="_blank">Download CV</a>
         </div>
       </section>
 
